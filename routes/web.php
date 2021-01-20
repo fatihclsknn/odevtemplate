@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +18,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home',[MainController::class,'index'])->name("homepage");
+
+    Route::get('',[MainController::class,'index'])->name("homepage");
+Route::get('/about',[AboutController::class,'about'])->name('about');
+Route::get('/product',[ProductController::class,'product'])->name('product');
+Route::get('/blog',[BlogController::class,'blog'])->name('blog');
+Route::get('contact',[ContactController::class,'contact'])->name('contact');

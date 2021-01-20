@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>@yield('app.name')</title>
+    <title>@yield('title',config('app.name'))</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -17,7 +17,7 @@
 </head>
 <body>
 @include('front.layouts.inc.header')
-@include('front.layouts.inc.slider')
+
 @yield('content')
 
 

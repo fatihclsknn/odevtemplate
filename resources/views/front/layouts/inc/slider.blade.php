@@ -10,7 +10,8 @@
                             <strong class="yellow_bold">Product </strong></h1>
                         <p>It is a long established fact that a r <br>
                             eader will be distracted by the readable content of a page </p>
-                        <a  href="#">see more Products</a>
+                        <a href="{{route('product')}}">Daha fazla ürün...</a>
+
                     </div>
                 </div>
             </div>
@@ -22,7 +23,7 @@
                             <strong class="yellow_bold">Product </strong></h1>
                         <p>It is a long established fact that a r <br>
                             eader will be distracted by the readable content of a page </p>
-                        <a  href="#">see more Products</a>
+                        <a href="{{route('product')}}">Daha fazla ürün...</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +35,8 @@
                             <strong class="yellow_bold">Product </strong></h1>
                         <p>It is a long established fact that a r <br>
                             eader will be distracted by the readable content of a page </p>
-                        <a  href="#">see more Products</a>
+                        <a href="{{route('product')}}">Daha fazla ürün...</a>
+
                     </div>
                 </div>
             </div>
