@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd6b13e2-69f3-428e-98be-31132ca42d87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/odevss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/odevss.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="fd6b13e2-69f3-428e-98be-31132ca42d87" name="Default Changelist" comment="Tüm-Controllerlar-ve-view-olusturuldu-yönlendirmeler-yapıldı-tüm-linkler-çalışır-şekilde-ayaga-kaldırıldı.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +32,13 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Blade" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,7 +175,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/front/layouts" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -172,17 +199,130 @@
       <option name="presentableId" value="Default" />
       <updated>1610891580385</updated>
       <workItem from="1610891581438" duration="244000" />
-      <workItem from="1610891834389" duration="740000" />
+      <workItem from="1610891834389" duration="1338000" />
+      <workItem from="1610902523406" duration="56000" />
+      <workItem from="1611076725113" duration="22000" />
+      <workItem from="1611077833294" duration="33000" />
+      <workItem from="1611078178240" duration="6223000" />
+      <workItem from="1611084876242" duration="247000" />
+      <workItem from="1611135948527" duration="1294000" />
+      <workItem from="1611137265051" duration="2485000" />
+      <workItem from="1611139885968" duration="1777000" />
+      <workItem from="1611336126604" duration="134000" />
+      <workItem from="1611336285466" duration="25000" />
+      <workItem from="1611383805635" duration="14000" />
+      <workItem from="1611658832593" duration="1843000" />
     </task>
+    <task id="LOCAL-00001" summary="idehelper-yüklendi">
+      <created>1610892837025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610892837025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignoregüncellendi">
+      <created>1610892910953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610892910953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="anasayfa-tasarımı-parcalandı-ve-ayaga-kaldırıldı.">
+      <created>1611084461390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611084461390</updated>
+    </task>
+    <task id="LOCAL-00004" summary="MainController olusturuldu.">
+      <created>1611084966764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611084966764</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tüm-Controllerlar-ve-view-olusturuldu-yönlendirmeler-yapıldı-tüm-linkler-çalışır-şekilde-ayaga-kaldırıldı.">
+      <created>1611141068395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611141068395</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idehelper-yüklendi" />
+    <MESSAGE value="gitignoregüncellendi" />
+    <MESSAGE value="anasayfa-tasarımı-parcalandı-ve-ayaga-kaldırıldı." />
+    <MESSAGE value="MainController olusturuldu." />
+    <MESSAGE value="Tüm-Controllerlar-ve-view-olusturuldu-yönlendirmeler-yapıldı-tüm-linkler-çalışır-şekilde-ayaga-kaldırıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tüm-Controllerlar-ve-view-olusturuldu-yönlendirmeler-yapıldı-tüm-linkler-çalışır-şekilde-ayaga-kaldırıldı." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="256" key="#Notifications" timestamp="1611660947312">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="440" y="256" key="#Notifications/0.23.1440.804@0.23.1440.804" timestamp="1611660947312" />
+    <state x="184" y="87" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611084494475">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="184" y="87" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.804@0.23.1440.804" timestamp="1611084494475" />
+    <state x="340" y="199" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1611084657110">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="340" y="199" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.1440.804@0.23.1440.804" timestamp="1611084657110" />
+    <state x="824" y="124" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611660104233">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="824" y="124" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.804@0.23.1440.804" timestamp="1611660104233" />
     <state x="481" y="344" key="ComposerInitDialogKey" timestamp="1610892561286">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="481" y="344" key="ComposerInitDialogKey/0.23.1440.804@0.23.1440.804" timestamp="1610892561286" />
+    <state x="838" y="159" key="NewPhpClassDialog" timestamp="1611080166858">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="838" y="159" key="NewPhpClassDialog/0.23.1440.806@0.23.1440.806" timestamp="1611080166858" />
+    <state x="827" y="356" key="NewPhpFileDialog" timestamp="1611136973891">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="827" y="355" key="NewPhpFileDialog/0.23.1440.804@0.23.1440.804" timestamp="1611084603518" />
+    <state x="827" y="356" key="NewPhpFileDialog/0.23.1440.806@0.23.1440.806" timestamp="1611136973891" />
+    <state x="229" y="64" key="SettingsEditor" timestamp="1611336233433">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="229" y="64" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1611336233433" />
+    <state x="229" y="64" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1611084584898" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1611141071152">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1611141071152" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/front/layouts/main.blade.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
