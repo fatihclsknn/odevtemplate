@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-    Route::get('',[MainController::class,'index'])->name("homepage");
+Route::get('',[MainController::class,'index'])->name("homepage");
 Route::get('/about',[AboutController::class,'about'])->name('about');
 Route::get('/product',[ProductController::class,'product'])->name('product');
 Route::get('/blog',[BlogController::class,'blog'])->name('blog');

@@ -2,10 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Product;
+use Faker\Provider\Address;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-
+use Faker;
 class ProductSeeder extends Seeder
 {
     /**
@@ -13,17 +15,19 @@ class ProductSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(Faker\Generator $faker)
     {
-        for ($i=0;$i<10;$i++){
-       // DB::table('products')->truncate();
-        $ProductName = Str::random(10).' '.Str::random(10);
-        DB::table("products")->insert([
-            'ProductName'=>Str::title($ProductName),
-            'slug'=>Str::slug($ProductName),
-            'ProductDescription'=>Str::random(15),
-            'Price'=>rand(10,2000)/10,
-        ]);
+        DB::table('products')->truncate();
+        for ($i=0;$i<12;$i++){
+            $ProductName=$faker->sentence(2);
+            $product = Product::create([
+                'ProductName'=>Str::title($ProductName),
+                'slug'=>Str::slug($ProductName),
+                'ProductDescription'=>$faker->sentence(20),
+                'Price'=>$faker->randomFloat(2,1,10)
+
+            ]);
         }
+
     }
 }
