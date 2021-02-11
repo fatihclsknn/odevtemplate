@@ -1,8 +1,18 @@
+
+@auth
+    <div class="alert alert-warning alert-dismissible fade show" role="alert" style="margin: 0">
+        <strong>Hoş geldin!</strong> {{auth()->user()->name}}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+@endauth
 <div class="header">
     <div class="head_top">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+
                     <div class="top-box">
                         <ul class="sociel_link">
                             <li> <a href="http://www.bombabomba.com/"><i class="fa fa-facebook-f"></i></a></li>
@@ -40,11 +50,23 @@
                                 <li> <a href="{{route('blog')}}">Blog</a> </li>
                                 <li> <a href="{{route('contact')}}">İletişim</a> </li>
 
+                                @auth
+                                  @csrf
+
+                                    <li class="mean-last"> <a href="{{route('logout')}}">Cıkıs Yap</a> </li>
+
+                                @endauth
+                                @guest()
+                                <li class="mean-last"> <a href="{{route('register')}}">Kayıt Ol</a> </li>
+                                <li class="mean-last"> <a href="{{route('login')}}">Giris Yap</a> </li>
+                                @endguest
+
                             </ul>
                         </nav>
                     </div>
                 </div>
             </div>
+
 
         </div>
     </div>
